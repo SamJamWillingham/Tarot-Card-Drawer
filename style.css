@@ -1,16 +1,16 @@
 div.container {
-  border: 1px solid #000000;
   max-width: 500px;
   border-radius: 8px;
   margin: 15px auto;
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
 }
 div.default-styling {
   display: block;
   margin: 0 auto;
-  color: blueviolet;
+  color: #000000;
   text-align: center;
   border: 1px solid #000000;
-  background-color: cornsilk;
+  background-color: rgba(255, 255, 255, 0.1);
   max-width: 220px;
   padding-top: 125px;
   padding-bottom: 125px;
@@ -20,4 +20,12 @@ img.cardImg {
   margin: 0 auto;
   max-width: 189px;
   height: 320px;
+}
+h1 {
+  font-family: "Molle", cursive;
+  text-align: center;
+}
+h3,
+p {
+  font-family: "Thasadith", sans-serif;
 }
