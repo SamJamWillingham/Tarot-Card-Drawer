@@ -1,0 +1,23 @@
+div.container {
+  border: 1px solid #000000;
+  max-width: 500px;
+  border-radius: 8px;
+  margin: 15px auto;
+}
+div.default-styling {
+  display: block;
+  margin: 0 auto;
+  color: blueviolet;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: cornsilk;
+  max-width: 220px;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+img.cardImg {
+  display: block;
+  margin: 0 auto;
+  max-width: 189px;
+  height: 320px;
+}
