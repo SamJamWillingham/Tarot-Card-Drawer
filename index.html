@@ -11,23 +11,74 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Thasadith&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Thasadith&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <h1>Daily Tarot Card Draw</h1>
       <div class="card default-styling">
+        <p>
           Click to <br />
           draw a card
+        </p>
       </div>
-      <h3>Name of card</h3>
-      <p>About card</p>
-      <h3>Log</h1>
+      <h3 class="name">Name of card</h3>
+      <p class="about">About card</p>
+      <h3>Log</h3>
       <div class="log">
-        */use media object for log*/
+        <form>
+          <div class="row">
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="The World" />
+            </div>
+            <div class="col-4">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineRadio1">😍</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2">🤨</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineRadio3">😣</label>
+              </div>
+            </div>
+            <div class="col-2">
+              <button class="logBtn">Log</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+    <small
+      >The images and information about each card are from
+      <a href="https://www.tarot.com/tarot/cards">Tarot.com</a><br />Open course
+      code by Sam Willingham</small
+    >
     <script src="script.js"></script>
+    <script src="fullDeck.js"></script>
   </body>
 </html>
-
