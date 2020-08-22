@@ -11,6 +11,8 @@ function changeCard() {
 
   card.classList.remove("default-styling");
   card.classList.add("newCard");
+  cardName.classList.remove("hide");
+  moreInfo.classList.remove("hide");
 }
 
 function getRandomNumber(min, max) {
