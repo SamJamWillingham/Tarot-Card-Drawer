@@ -105,4 +105,28 @@ let deck = [
     cardFile: `<img src="src/17-star.jpg" alt="The Star" class="cardImg">`,
     about: `The Star card advises that you rededicate yourself to your higher values, increase your spiritual cultivation and meditation practice, and surrender to the greater good. Connect to your higher self -- a being of a larger realm traveling on an evolutionary course that started long ago and runs indefinitely into the future. This is the part you wish to contact and communicate with.<br />Now is a period for quiet contemplation. Listen for the voice within. Anything that would interfere with this communion may not be serving your best interests right now.`,
   },
+
+  {
+    name: "The Moon",
+    cardFile: `<img src="src/18-moon.jpg" alt="The Moon" class="cardImg">`,
+    about: `The Moon card advises that you trust your instincts and intuitions. Your intuitive body, which is connected to all living things, is sharper and quicker than the cultivated, civilized self. The everyday mind may not be prepared for strange oceanic circumstances. Plus, it has no game plan. Your intuitive body will support you unerringly if you do not interfere with or try to control what you perceive. A better approach would be to meditate. Try to just be a witness. Do nothing; let nature carry you forward. This may be your best option in this situation.`,
+  },
+
+  {
+    name: "The Sun",
+    cardFile: `<img src="src/19-sun.jpg" alt="The Sun" class="cardImg">`,
+    about: `The Sun card advises you to have confidence in your natural divinity. Throw off any cultural conditioning that keeps you from being authentic with yourself. Step into the full light of truth and reveal your motives and principles. Once done, you will no longer give away power to the people that criticize and shame you. Focus on the positive and the real. Your authentic shining self can be a light for others if you project it without contrivance.`,
+  },
+
+  {
+    name: "Judgement",
+    cardFile: `<img src="src/20-judgement.jpg" alt="Judgement" class="cardImg">`,
+    about: `The Judgment card advises that you allow yourself to grow, transform, and release hidden potentials within yourself. Divest yourself of fruitless endeavors without neglecting your duties. At the same time, invest your energies in new growth.<br />It's not necessary to reject others, but refuse to be manipulated by those who cry foul. This process isn't about them anyway. It is about you and the desire you feel to change your life and become a more complete person.`,
+  },
+
+  {
+    name: "The World",
+    cardFile: `<img src="src/21-world.jpg" alt="The World" class="cardImg">`,
+    about: `The World card may be giving you permission to do whatever you want. Presently, your motivation is close to the will of the divine. Even if you commit an error, it will be turned to the greater good. Stay active and just keep moving forward. It is unnecessary to keep checking or interrupting your spontaneity with calculation. Rather than look for consensus or affirmation from others, simply dance the dance. In other words, express yourself, react naturally, and let the chips fall where they may.<br />What matters is divine intention. Whether or not human beings approve is less important. If you allow your ego to inflate, however, you cease to be useful to the greater plan.`,
+  },
 ];
