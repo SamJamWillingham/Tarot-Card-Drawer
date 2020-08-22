@@ -22,17 +22,3 @@ function getRandomNumber(min, max) {
 }
 
 card.addEventListener("click", changeCard);
-
-//Log
-let logBtn = document.querySelector("button");
-let catalog = null;
-
-function logNewCard(event) {
-  event.preventDefault();
-  let cardNameInput = document.querySelector(".form-control");
-  let emojiInput = document.querySelector("form-check-inline");
-  let catalog = document.querySelector(".logCatalog");
-
-  catalog.innerHTML = `<div class=logStyle><p>${cardNameInput.value} ${emojiInput.value}</p></div>`;
-}
-logBtn.addEventListener("click", logNewCard);
